@@ -1,27 +1,58 @@
-<!--Main Navigation-->
-<nav id="nav-main">
-  <ul>
-    <li>
-      <a href="#banner">Home</a>
-    </li>
-    <li>
-      <a href="#about">About</a>
-    </li>
-    <li>
-      <a href="#gallery">Gallery</a>
-    </li>
-    <li>
-      <a href="#services">Services</a>
-    </li>
-    <li>
-      <a href="#testimonials">Testimonials</a>
-    </li>
-    <li>
-      <a href="#clients">Clients</a>
-    </li>
-    <li>
-      <a href="#pricing">Pricing</a>
-    </li>
-  </ul>
-</nav>
-<!--End of Main Navigation-->
+<div id="header" class="nav-collapse">
+  <div class="row clearfix">
+    <div class="col-1">
+
+      <!--Logo-->
+      <div id="logo">
+
+        <!--Logo that is shown on the banner-->
+        <img src="../assets/images/logo.png" id="banner-logo" alt="Landing Page" />
+        <!--End of Banner Logo-->
+
+        <!--The Logo that is shown on the sticky Navigation Bar-->
+        <img src="../assets/images/logo-2.png" id="navigation-logo" alt="Landing Page" />
+        <!--End of Navigation Logo-->
+
+      </div>
+      <!--End of Logo-->
+      <aside>
+        <app-social></app-social>
+      </aside>
+
+
+      <!--Main Navigation-->
+      <nav id="nav-main">
+        <ul>
+          <li>
+            <a routerLinks="/Home">Home</a>
+          </li>
+          <li>
+            <a routerLinks="/About">About</a>
+          </li>
+          <li>
+            <a routerLinks="/Gallery">Gallery</a>
+          </li>
+          <li>
+            <a routerLinks="/Services">Services</a>
+          </li>
+          <li>
+            <a routerLinks="/Testimonials">Testimonials</a>
+          </li>
+          <li>
+            <a routerLinks="/Clients">Clients</a>
+          </li>
+          <li>
+            <a routerLinks="/Pricing">Pricing</a>
+          </li>
+        </ul>
+      </nav>
+      <!--End of Main Navigation-->
+
+      <div id="nav-trigger"><span></span></div>
+      <nav id="nav-mobile"></nav>
+
+    </div>
+  </div>
+</div>
+<!--End of Header-->
+
