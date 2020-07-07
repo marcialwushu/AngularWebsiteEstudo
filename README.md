@@ -1,5 +1,7 @@
 # Website
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/1ca04c515d084cdebd871f11e5277949)](https://app.codacy.com/manual/marcialwushu/AngularWebsiteEstudo?utm_source=github.com&utm_medium=referral&utm_content=marcialwushu/AngularWebsiteEstudo&utm_campaign=Badge_Grade_Settings)
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.6.
 
 ## Development server
